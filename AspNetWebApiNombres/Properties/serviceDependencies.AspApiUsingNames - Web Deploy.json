@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/myManageApi1/apis/apiusingnames",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "type": "mssql.onprem",
+      "connectionId": "ConnectionStrings:CompanyConnStr",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
